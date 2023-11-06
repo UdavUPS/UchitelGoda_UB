@@ -133,6 +133,18 @@ html {
   width: 100%;
   margin: 0;
   box-sizing: border-box;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.body__header__center__title {
+  font-family: "OpenSans";
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 300px;
 }
 
 .body__header__right {
