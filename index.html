@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УчительГода</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header body__header">
+    <div class="body__header__left"></div>
+    <div class="body__header__center">
+      <!-- <img src="img/m_h_fon.gif" alt="foto" class="body__header__center_img"> -->
+      <div class="burger-menu header__header-content__burger-menu"><div class="burger-center-line"></div></div>
+    </div>
+    <div class="body__header__right"></div>  
+  </header>
+  <nav class="menu visually-hidden_m">
+    <ul class="menu__list">
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Главная</a></li>
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Документы</a></li>
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Методическая копилка</a></li>
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Учителям</a></li>
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Ученикам</a></li>
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Родителям</a></li>
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Портфолио</a></li>
+      <li class="menu__list__item"><a href="" class="menu__list__item_a">Внеурочка</a></li>
+    </ul>
+  </nav>
+  <main class="main body__main">
+    <div class="content-field body__main__content-field"></div>
+  </main>
+  <footer class="footer body__footer"></footer>
+  
+
+
+  <script>
+    const menuBut = document.querySelector('.header__header-content__burger-menu');
+    const menu = document.querySelector('.menu');
+    let status = true;
+
+
+    menuBut.addEventListener('click', () => {
+      if (('visually-hidden_m' in menu.classList) || (status)) {
+        menu.classList.remove('visually-hidden_m');
+        status = false;
+      } else {
+        menu.classList.add('visually-hidden_m');
+        status = true;
+      }
+    })
+  </script>
+</body>
+</html>
