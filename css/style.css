@@ -145,6 +145,7 @@ html {
   text-transform: uppercase;
   position: absolute;
   margin-top: 300px;
+  font-size: 1.25rem;
 }
 
 .body__header__right {
@@ -236,6 +237,17 @@ html {
   height: 400px;
   width: 80%;
   margin: auto;
+}
+
+.lower-decoration {
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/lower-decoration.png);
+  background-repeat: repeat;
+  background-position: bottom;
+  position: absolute;
+  margin-top: -99px;
+  /* background-size: cover; */
 }
 
 
