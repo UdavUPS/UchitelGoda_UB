@@ -250,11 +250,52 @@ html {
   /* background-size: cover; */
 }
 
-/*main*/
+.text__title {
+  font-family: "OpenSans";
+  font-weight: bold;
+  color: #323333;
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-size: 1.25rem;
+}
+
+.text__content {
+  font-family: "OpenSans";
+  font-weight: Regular;
+  color: #323333;
+  text-align: left;
+  /* text-transform: uppercase; */
+  font-size: 1rem;
+  text-indent: 25px;
+}
+
+/*footer*/
 .footer {
-  min-height: 100px;
+  min-height: 120px;
   background-color: #323333;
-  border-top: 1px solid #BDE5FD;
+  /* border-top: 1px solid #BDE5FD; */
+  display: flex;
+}
+
+.logo_god_ped{
+  /* width: 100%; */
+  max-height: 80px;
+  margin: 2px 0 0 20px;
+}
+
+.god-pedagoga-text {
+  border-left: 3px solid whitesmoke;
+  font-family: "OpenSans";
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-left: 5px;
+  margin-top: 3px;
+  max-height: 80px;
+  max-width: 100px;
+  padding-left: 5px;
 }
 
 
