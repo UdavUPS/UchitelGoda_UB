@@ -75,6 +75,10 @@ html {
 }
 
 /*page code*/
+.content-field {
+	min-height: 700px;
+  }
+
 .body__main__content-field {
   display: flex;
 }
@@ -97,6 +101,10 @@ html {
 }
 
 @media (min-width: 641px) and (max-width: 1200px) {
+	.content-field {
+		min-height: 650px;
+	  }
+	
 	.autor-foto {
 		display: inline-block;
 		width: 30%;
@@ -115,6 +123,10 @@ html {
 
 
 @media (min-width: 1201px) {
+	.content-field {
+		min-height: 650px;
+	  }
+
 	.autor-foto {
 		display: inline-block;
 		width: 30%;
