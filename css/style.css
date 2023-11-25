@@ -234,7 +234,7 @@ html {
 
 .content-field {
   background-color: #87CFFA;
-  min-height: 600px;
+  min-height: 650px;
   width: 80%;
   margin: auto;
 }
@@ -267,7 +267,10 @@ html {
   /* text-transform: uppercase; */
   font-size: 1rem;
   text-indent: 25px;
+  line-height: 125%;
+  margin-bottom: 2em;
 }
+
 
 /*footer*/
 .footer {
